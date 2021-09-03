@@ -49,7 +49,7 @@ table {
 /* Global */
 * {
     box-sizing: border-box;
-    border: 1px dotted black;
+    /* border: 1px dotted red; */
 }
 
 html, body {
@@ -125,8 +125,9 @@ header {
 
 .about-top {
     padding: 0 2% 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 }
-
 
 /* Middle */
 .middle-content {
@@ -186,6 +187,36 @@ header {
     background: dodgerblue;
 }
 
+.about-middle {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.about-middle .about-content {
+    width: 48%;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle button {
+    background: white;
+    padding: 2% 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.about-middle button:hover {
+    background: black;
+    color: white;
+}
+
+.about-middle h2 {
+    margin-top: 10px;
+}
+
 /* Bottom */
 .bottom-content {
     display: flex;
@@ -199,6 +230,11 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom {
+    padding: 2%;
+    margin-bottom: 20px;
 }
 
 /* Footer */
