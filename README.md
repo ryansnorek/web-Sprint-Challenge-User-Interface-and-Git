@@ -34,8 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML tags have specific meaning and purpose such as <head>, <body>, <section>, <p>.
-    Unlike a <div> or <span>, where it's purpose is not clearly defined. 
+    Semantic HTML tags have specific meaning and purpose such as ```<head>``` ```<body>``` ```<section>``` and ```<p>```. Unlike a ```<div>``` or ```<span>``` where it's purpose is not clearly defined. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
