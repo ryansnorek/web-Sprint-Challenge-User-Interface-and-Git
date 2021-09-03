@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,8 +46,10 @@ table {
 	border-spacing: 0;
 }
 
+/* Global */
 * {
     box-sizing: border-box;
+    border: 1px dotted black;
 }
 
 html, body {
@@ -66,9 +67,46 @@ p {
     line-height: 1.4;
 }
 
+a:hover {
+    opacity: 0.7;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Top */
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.top nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black
+}
+
+.logo {
+    padding-top: 2%;
+}
+
+.banner {
+    padding-bottom: 20px;
 }
 
 .top-content {
@@ -85,6 +123,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-page {
+    padding: 2%;
+}
+
+
+/* Middle */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +148,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +155,38 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +201,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
